@@ -1,6 +1,8 @@
 <p align="center">
 <img src="https://github.com/JustinFreeburn/The-Warriors-PlayStation2-Unity/blob/main/Readme/warriors_logo.png">
 <br><br>
+Make the "Assets\StreamingAssets\Config.json" file point to your game files.
+<br><br>
 <img src="https://github.com/JustinFreeburn/The-Warriors-PlayStation2-Unity/blob/main/Readme/warriors_0.png">
 <br><br>
 <img src="https://github.com/JustinFreeburn/The-Warriors-PlayStation2-Unity/blob/main/Readme/warriors_1.png">
