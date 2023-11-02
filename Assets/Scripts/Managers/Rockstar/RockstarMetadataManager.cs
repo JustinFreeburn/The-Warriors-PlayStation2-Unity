@@ -15,13 +15,9 @@ namespace TheWarriors
             
             public UInt32 uiFileHash;
             
-            public bool bModel;
-            
             public Int32 iWADIndex;
             
             public UInt32 uiOriginalFileHash;
-            
-            public Int32 iModelType;
         }
 
         public class MusicMetadata
@@ -157,7 +153,6 @@ namespace TheWarriors
 
                         Entry.iWADIndex = iIterator;
                         Entry.uiOriginalFileHash = Entry.uiFileHash;
-                        Entry.iModelType = -1;
 
                         WadFileReader.SeekBeginning(Entry.lFileOffset);
 
@@ -172,24 +167,6 @@ namespace TheWarriors
                             (uiPeekBytes[0] == 0x01 || uiPeekBytes[0] == 0x02) && (uiPeekBytes[2] == 0x2A) && (uiPeekBytes[3] == 0x16))
                         {
                             Entry.uiFileHash = uiPeekBytes[1];
-                        }
-
-                        // NOTE: Lets find some unused DFF's...
-                        if ((uiPeekBytes[0] == 0x01 || uiPeekBytes[0] == 0x02) && (uiPeekBytes[2] == 0x47) && (uiPeekBytes[3] == 0x10))
-                        {
-                            if (uiPeekBytes[0] == 0x01)
-                            {
-                                Entry.iModelType = 1;
-                            }
-                            else if (uiPeekBytes[0] == 0x02)
-                            {
-                                Entry.iModelType = 2;
-                            }
-                            Entry.bModel = true;
-                        }
-                        else
-                        {
-                            Entry.bModel = false;
                         }
 
                         WadMetadataContainer.Add(Entry.uiFileHash, Entry);
