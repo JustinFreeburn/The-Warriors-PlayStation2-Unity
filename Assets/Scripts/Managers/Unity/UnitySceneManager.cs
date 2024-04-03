@@ -14,11 +14,11 @@ namespace TheWarriors
 
         // NOTE: Data comes from LEV file
         public static GameObject skybox;
-        
+
         public static GameObject sky;
-        
+
         public static GameObject terrain;
-        
+
         public static GameObject collisionMesh;
 
         // NOTE: Character GameObject pool
@@ -48,7 +48,6 @@ namespace TheWarriors
                         return false;
                     }
                 }
-
                 if (level.sectorCount == 1)
                 {
                     List<UInt32> sector1Hashes = new List<UInt32>();
@@ -70,6 +69,7 @@ namespace TheWarriors
                     }
                 }
 
+                // NOTE: The RenderWare engine must load the WLD files before the SEC files. I have found some SEC files reference textures in both WLD files.
                 if (level.sectorCount == 2)
                 {
                     List<UInt32> sector1Hashes = new List<UInt32>();
@@ -87,8 +87,21 @@ namespace TheWarriors
 
                     if (sectorObject != null)
                     {
-                        LoadWorldAndSectors(Utility.ConvertToHex(level.sector1Hash), sectorObject, sector1Hashes, false);
-                        LoadWorldAndSectors(Utility.ConvertToHex(level.sector2Hash), sectorObject, sector2Hashes, false);
+                        //LoadWorldAndSectors(Utility.ConvertToHex(level.sector1Hash), sectorObject, sector1Hashes, false);
+                        //LoadWorldAndSectors(Utility.ConvertToHex(level.sector2Hash), sectorObject, sector2Hashes, false);
+
+                        RenderWareWorld test1 = LoadWorldOnly(Utility.ConvertToHex(level.sector1Hash));
+                        RenderWareWorld test2 = LoadWorldOnly(Utility.ConvertToHex(level.sector2Hash));
+
+                        if (test1 != null)
+                        {
+                            LoadSectorsOnly(Utility.ConvertToHex(level.sector1Hash), test1, sectorObject, sector1Hashes, false);
+                        }
+
+                        if (test2 != null)
+                        {
+                            LoadSectorsOnly(Utility.ConvertToHex(level.sector2Hash), test2, sectorObject, sector2Hashes, false);
+                        }
                     }
                     else
                     {
@@ -153,6 +166,45 @@ namespace TheWarriors
             for (Int32 iIterator = 0; iIterator < sectors.Count; iIterator++)
             {
                 GameObject renderWareSectorGameObject = new RenderWareSector(sectors[iIterator]).CreateSectorObject(renderWareWorld.atomicPositions, bTransparent);
+
+                if (renderWareSectorGameObject != null)
+                {
+                    sectorModelList.Add(renderWareSectorGameObject);
+
+                    if (gameObject != null)
+                    {
+                        renderWareSectorGameObject.transform.parent = gameObject.transform;
+                    }
+                }
+            }
+        }
+
+        public static RenderWareWorld LoadWorldOnly(UInt32 uiFileHash)
+        {
+            RenderWareWorld renderWareWorld = new RenderWareWorld(uiFileHash);
+
+            if (renderWareWorld.renderWareWorldFile == null)
+            {
+                Debug.Log("*** Error: UnitySceneManager.LoadWorldOnly(" + String.Format("{0:X8}", uiFileHash) + ") failed.");
+            }
+
+            return renderWareWorld;
+        }
+
+        public static void LoadSectorsOnly(UInt32 uiFileHash, RenderWareWorld renderWareWorld, GameObject gameObject, List<UInt32> sectors, bool bTransparent)
+        {
+            if (renderWareWorld.renderWareWorldFile == null)
+            {
+                Debug.Log("*** Error: UnitySceneManager.LoadSectorsOnly(" + String.Format("{0:X8}", uiFileHash) + ") failed.");
+
+                return;
+            }
+
+            for (Int32 iIterator = 0; iIterator < sectors.Count; iIterator++)
+            {
+                RenderWareSector test = new RenderWareSector(sectors[iIterator]);
+
+                GameObject renderWareSectorGameObject = test.CreateSectorObject(renderWareWorld.atomicPositions, bTransparent);
 
                 if (renderWareSectorGameObject != null)
                 {
