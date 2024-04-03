@@ -1,6 +1,1192 @@
 {
     "levels":[
         {
+            "name": "level101",
+            "title": "Junkyard",
+            "sectorCount": 2,
+            "levelHash": "78831172",
+            "sector1Hash": "24E40C06",
+            "sector2Hash": "EC4523BE",
+            "sector1Hashes": [
+		"CCF6108E",
+		"8B566A5E"	
+            ],
+            "sector2Hashes": [
+		"04573F36",
+		"43F745E6",
+		"7E976C56",
+		"CCB7B046",
+		"F1D799F6",
+		"B677E326",
+		"8B17CA96"
+            ]
+        },
+        {
+            "name": "level102",
+            "title": "Fight Pen",
+            "sectorCount": 2,
+            "levelHash": "3F236BA2",
+            "sector1Hash": "CFD3B705",
+            "sector2Hash": "077298BD",
+            "sector1Hashes": [
+		"27C1AB8D",
+		"6061D15D",	
+		"5D01F8ED"	
+            ],
+            "sector2Hashes": [
+		"EF608435",
+		"A8C0FEE5",
+		"95A0D755",
+		"27800B45"
+            ]
+        },
+        {
+ 	    "name": "level103",
+            "title": "Warrior Turf",
+            "sectorCount": 2,
+            "levelHash": "02434212",
+            "sector1Hash": "2011DC3B",
+            "sector2Hash": "E8B0F383",
+            "sector1Hashes": [
+		"C803C0B3",
+		"8FA3BA63"	
+            ],
+            "sector2Hashes": [
+		"00A2EF0B",
+		"470295DB",
+		"7A62BC6B",
+		"C842607B",
+		"F52249CB",
+		"B282331B",
+		"8FE21AAB"
+            ]
+        },
+        {
+ 	    "name": "level104",
+            "title": "The Rotunda",
+            "sectorCount": 2,
+            "levelHash": "B0639E02",
+            "sector1Hash": "C2CDC742",
+            "sector2Hash": "0A6CE8FA",
+            "sector1Hashes": [
+		"2ADFDBCA",
+		"6D7FA11A",
+		"501F88AA",
+		"E23F54BA",
+		"DF5F7D0A",
+		"98FF07DA",
+		"A59F2E6A",
+		"27CFB9BB"
+            ],
+            "sector2Hashes": [
+		"E27EF472",
+		"A5DE8EA2",
+		"98BEA712",
+		"2A9E7B02",
+		"17FE52B2",
+		"505E2862",	
+		"6D3E01D2"
+            ]
+        },
+        {
+ 	    "name": "level105",
+            "title": "Red Devil",
+            "sectorCount": 2,
+            "levelHash": "8D03B7B2",
+            "sector1Hash": "2D0FAC7C",
+            "sector2Hash": "E5AE83C4",
+            "sector1Hashes": [
+		"C51DB0F4"
+            ],
+            "sector2Hashes": [
+		"0DBC9F4C"
+            ]
+        },
+        {
+ 	    "name": "level106",
+            "title": "The Shanties",
+            "sectorCount": 2,
+            "sector1Hash": "C638177F",
+            "sector2Hash": "0E9938C7",
+            "sector1Hashes": [
+		"2E2A0BF7",
+		"698A7127"
+            ],
+            "sector2Hashes": [
+		"E68B244F",
+		"A12B5E9F",
+		"9C4B772F",
+		"2E6BAB3F",
+		"130B828F",
+		"54ABF85F"	
+            ]
+        },
+        {
+	   "name": "level107",
+            "title": "Courtyard",
+            "sectorCount": 2,
+	    "levelHash": "F7C3E4D2",
+            "sector1Hash": "29FA7C41",
+            "sector2Hash": "E15B53F9",
+            "sector1Hashes": [
+		"C1E860C9"
+            ],
+            "sector2Hashes": [
+		"09494F71",
+		"4EE935A1",
+		"73891C11",
+		"C1A9C001",
+		"FCC9E9B1"
+            ]
+        },
+        {
+	    "name": "level108",
+            "title": "Gunhill Road",
+            "sectorCount": 2,
+	    "levelHash": "75937303",
+            "sector1Hash": "D8F127CC",
+            "sector2Hash": "10500874",
+            "sector1Hashes": [
+		"30E33B44",
+		"77434194",
+		"4A236824",
+		"F803B434",
+		"C5639D84"
+            ],
+            "sector2Hashes": [
+		"F84214FC",
+		"BFE26E2C",
+		"8282479C",
+		"30A29B8C",
+		"0DC2B23C",
+		"4A62C8EC",
+		"7702E15C",
+		"F552768D"
+            ]
+        },
+        {
+	    "name": "level109",
+            "title": "Shaolin Temple",
+            "sectorCount": 2,
+	    "levelHash": "48F35AB3",
+            "sector1Hash": "37334CF2",
+            "sector2Hash": "FF92634A",
+            "sector1Hashes": [
+		"DF21507A",
+		"98812AAA",
+		"A5E1031A"
+            ],
+            "sector2Hashes": [
+		"17807FC2",
+		"50200512",
+		"6D402CA2",
+		"DF60F0B2",
+		"E200D902",
+		"A5A0A3D2",
+		"98C08A62",
+		"1A901DB3",
+		"27F03403"
+            ]
+        },
+        {
+	    "name": "level110",
+            "title": "Club 45",
+            "sectorCount": 2,
+	    "levelHash": "8EBFEB67",
+            "sector1Hash": "0AA8B8F8",
+            "sector2Hash": "C2099740",
+            "sector1Hashes": [
+		"E2BAA470"
+            ],
+            "sector2Hashes": [
+		"2A1B8BC8",
+		"6DBBF118"
+            ]
+        },
+        {
+	    "name": "level111",
+            "title": "Bensonhurst",
+            "sectorCount": 2,
+	    "levelHash": "B3DFC2D7",
+            "sector1Hash": "E56AD3C6",
+            "sector2Hash": "2DCBFC7E",
+            "sector1Hashes": [
+		"0D78CF4E",
+		"4AD8B59E",
+		"77B89C2E"
+            ],
+            "sector2Hashes": [
+		"C5D9E0F6",
+		"82799A26",
+		"BF19B396",
+		"0D396F86",
+		"30594636",
+		"77F93CE6",
+		"4A991556"
+            ]
+        },
+        {
+	    "name": "level112",
+            "title": "Coney Drag",
+            "sectorCount": 2,
+	    "levelHash": "F47FB807",
+            "sector1Hash": "0E5D68C5",
+            "sector2Hash": "C6FC477D",
+            "sector1Hashes": [
+		"E64F744D",
+		"A1EF0E9D",
+		"9C8F272D",
+		"2EAFFB3D",
+		"13CFD28D",
+		"546FA85D"
+            ],
+            "sector2Hashes": [
+		"2EEE5BF5",
+		"6306B17F",
+		"5E6698CF",
+		"19C6E21F",
+		"24A6CBAF",		
+		"968617BF",
+		"ABE63E0F",
+		"694E2125",
+		"542E0895",
+		"E60ED485",
+		"DB6EFD35",
+		"9CCE87E5",
+		"A1AEAE55",
+		"23FE3984",
+		"1E9E1034"
+            ]
+        },
+        {
+	    "name": "level113",
+            "title": "Swimming Pool",
+            "sectorCount": 2,
+	    "levelHash": "C91F91B7",
+            "sector1Hash": "E19F03FB",
+            "sector2Hash": "293E2C43",
+            "sector1Hashes": [
+		"098D1F73",
+		"4E2D65A3",
+		"734D4C13"		
+            ],
+            "sector2Hashes": [
+		"C12C30CB",
+		"868C4A1B",
+		"BBEC63AB",
+		"09CCBFBB"
+            ]
+        },
+        {
+	    "name": "level114",
+            "title": "Chinatown",
+            "sectorCount": 2,
+	    "levelHash": "7B3F4DA7",
+            "sector1Hash": "03431882",
+            "sector2Hash": "CBE2373A",
+            "sector1Hashes": [
+		"EB51040A",
+		"ACF17EDA",
+		"9191576A"	
+            ],
+            "sector2Hashes": [
+		"23F02BB2",
+		"8BB37B3C",
+		"B6D3528C",
+		"64505162",
+		"593078D2",
+		"EB10A4C2",
+		"D6708D72",
+		"91D0F7A2",
+		"ACB0DE12",
+		"2EE049C3",
+		"13806073"
+            ]
+        },
+        {
+	    "name": "level115",
+            "title": "Subway Platform",
+            "sectorCount": 2,
+	    "levelHash": "465F6417",
+            "sector1Hash": "EC8173BC",
+            "sector2Hash": "24205C04",
+            "sector1Hashes": [
+		"04936F34",
+		"433315E4",
+		"7E533C54",
+		"CC73E044"
+            ],
+            "sector2Hashes": [
+		"CC32408C",
+		"8B923A5C",
+		"B6F213EC",
+		"04D2CFFC",
+		"39B2E64C",
+		"7E129C9C"
+            ]
+        },
+        {
+	    "name": "level116",
+            "title": "The Shack",
+            "sectorCount": 2,
+	    "levelHash": "01FF1EC7",
+            "sector1Hash": "07B6C8BF",
+            "sector2Hash": "CF17E707",
+            "sector1Hashes": [
+		"EFA4D437"
+            ],
+            "sector2Hashes": [
+		"2705FB8F",
+		"60A5815F",
+		"5DC5A8EF"
+            ]
+        },
+        {
+	    "name": "level117",
+            "title": "Tenement Lobby",
+            "sectorCount": 2,
+            "sector1Hash": "E874A381",
+            "sector2Hash": "20D58C39",
+            "sector1Hashes": [
+		"0066BF09"
+            ],
+            "sector2Hashes": [
+		"C8C790B1"
+            ]
+        },
+        {
+	    "name": "level118",
+            "title": "Tack's Warehouse",
+            "sectorCount": 2,
+	    "levelHash": "BECFA0A6",
+            "sector1Hash": "197FF80C",
+            "sector2Hash": "D1DED7B4",
+            "sector1Hashes": [
+		"F16DE484"
+            ],
+            "sector2Hashes": [
+		"39CCCB3C",
+		"7E6CB1EC",
+		"430C985C",
+		"F12C444C"
+            ]
+        },
+        {
+	    "name": "level119",
+            "title": "The Graveyard",
+            "sectorCount": 2,
+	    "levelHash": "83AF8916",
+            "sector1Hash": "F6BD9332",
+            "sector2Hash": "3E1CBC8A",
+            "sector1Hashes": [
+		"1EAF8FBA",
+		"8555ACAA",
+		"590FF56A",
+		"646FDCDA",
+		"D64F00CA",
+		"EB2F297A",
+		"AC8F53AA",
+		"91EF7A1A",
+		"13BFEDCB",
+		"2EDFC47B"
+            ],
+            "sector2Hashes": [
+		"D60EA002",
+		"4027363B",
+		"7D471F8B",
+		"3AE7655B",
+		"07874CEB",
+		"B5A790FB",
+		"88C7B94B",
+		"CF67C39B",
+		"F207EA2B",
+		"70577DFA",
+		"4D37544A",
+		"91AEDAD2",
+		"ACCEF362",
+		"1EEE2F72",
+		"238E06C2",
+		"642E7C12",
+		"594E55A2",
+		"DB1EC273",
+		"E67EEBC3"
+            ]
+        },
+        {
+ 	    "name": "level120",
+            "title": "The Bridge",
+            "sectorCount": 2,
+            "levelHash": "082B99C9",
+            "sector1Hash": "934ADEF9",
+            "sector2Hash": "5BEBF141",
+            "sector1Hashes": [
+		"7B58C271",	
+		"898640DF",
+		"3CF8B8A1",
+		"01989111",
+		"B3B84D01",
+		"8ED864B1",
+		"C9781E61",
+		"F41837D1",
+		"7648A000",
+		"4B2889B0"
+            ],
+            "sector2Hashes": [
+		"B3F9EDC9",
+		"4CF4DA4E",
+		"7194F3FE",
+		"3634892E",
+		"0B54A09E",
+		"B9747C8E",
+		"8414553E",
+		"C3B42FEE",
+		"FED4065E",
+		"7C84918F",
+		"41E4B83F",
+		"F4599719",
+		"C939BEA9",
+		"7B1962B9",
+		"46794B09",
+		"01D931D9",
+		"3CB91869",
+		"BEE98FB8",
+		"8389A608"
+            ]
+        },
+        {
+
+ 	    "name": "level121",
+            "title": "The Orphanage",
+            "sectorCount": 2,
+            "levelHash": "354BB079",
+            "sector1Hash": "7C88B5C7",
+            "sector2Hash": "B4299A7F",
+            "sector1Hashes": [
+		"949AA94F",
+		"D33AD39F"
+            ],
+            "sector2Hashes": [
+		"5C3B86F7",
+		"1B9BFC27"
+            ]
+        },
+        {
+ 	    "name": "level122",
+            "title": "Wrecked Apts",
+            "sectorCount": 2,
+            "levelHash": "72EBCAA9",
+            "sector1Hash": "97BF0EC4",
+            "sector2Hash": "5F1E217C",
+            "sector1Hashes": [
+		"7FAD124C"
+            ],
+            "sector2Hashes": [
+		"B70C3DF4",
+		"F0AC4724",
+		"CDCC6E94"
+            ]
+        },
+        {
+ 	    "name": "level123",
+            "title": "Subway Bathroom",
+            "sectorCount": 2,
+            "levelHash": "4F8BE319",
+            "sector1Hash": "787D65FA",
+            "sector2Hash": "B0DC4A42",
+            "sector1Hashes": [
+		"906F7972"
+            ],
+            "sector2Hashes": [
+		"58CE56CA"
+            ]
+        },
+        {
+            "name": "level124",
+            "title": "Stripes and Solids",
+            "sectorCount": 2,
+            "levelHash": "FDAB3F09",
+            "sector1Hash": "9AA17E83",
+            "sector2Hash": "5200513B",
+            "sector1Hashes": [
+                "72B3620B"
+            ],
+            "sector2Hashes": [
+                "BA124DB3",
+                "FDB23763"
+            ]
+        },
+        {
+            "name": "level125",
+            "title": "Spookarama",
+            "sectorCount": 2,
+            "sector1Hash": "756315BD",
+            "sector2Hash": "BDC23A05",
+            "sector1Hashes": [
+                "9D710935"
+            ],
+            "sector2Hashes": [
+                "55D0268D",
+                "12705C5D"
+           ]
+        },
+        {
+ 	    "name": "level126",
+            "title": "Coney Amusement",
+            "sectorCount": 2,
+            "levelHash": "876B6C69",
+            "sector1Hash": "9E54AEBE",
+            "sector2Hash": "56F58106",
+            "sector1Hashes": [
+		"7646B236",
+		"31E6C8E6",
+		"0C86E156",
+		"BEA63D46"
+            ],
+            "sector2Hashes": [
+		"BEE79D8E",
+		"A441100D",
+		"992139BD",
+		"F947E75E",
+		"C427CEEE",
+		"760712FE",
+		"4B673B4E",
+		"0CC7419E",
+		"31A7682E",
+		"B3F7FFFF",
+		"8E97D64F"
+            ]
+        },
+        {
+	    "name": "level127",
+            "title": "The Park",
+            "sectorCount": 2,
+            "levelHash": "BA0B45D9",
+            "sector1Hash": "7196C580",
+            "sector2Hash": "B937EA38",
+            "sector1Hashes": [
+		"9984D908",
+		"DE24A3D8"
+            ],
+            "sector2Hashes": [
+		"5125F6B0",
+		"16858C60",
+		"2BE5A5D0"
+            ]
+        },
+        {
+
+	    "name": "level128",
+            "title": "The Old Junkyard",
+            "sectorCount": 2,
+            "levelHash": "385BD208",
+            "sector1Hash": "7196C580",
+            "sector2Hash": "483CB1B5",
+            "sector1Hashes": [
+		"688F8285",
+		"2F2FF855"
+            ],
+            "sector2Hashes": [
+		"A02EAD3D",
+		"E78ED7ED",
+		"DAEEFE5D",
+		"68CE224D"
+            ]
+        },
+        {
+	    "name": "level129",
+            "title": "King o'Shanties",
+            "sectorCount": 2,
+            "levelHash": "053BFBB8",
+            "sector1Hash": "6F5FF533",
+            "sector2Hash": "A7FEDA8B",
+            "sector1Hashes": [
+		"874DE9BB",
+		"C0ED936B"
+            ],
+            "sector2Hashes": [
+		"4FECC603",
+		"084CBCD3",	
+		"352C9563",
+		"870C4973",
+		"BA6C60C3",
+		"FDCC1A13",
+		"C0AC33A3"
+            ]
+        },
+        {
+	    "name": "level130",
+            "title": "Mausoleum Hill",
+            "sectorCount": 2,
+            "levelHash": "C3774A6C",
+            "sector1Hash": "52C40139",
+            "sector2Hash": "9A652E81",
+            "sector1Hashes": [
+		"BAD61DB1",
+		"FD766761"
+            ],
+            "sector2Hashes": [
+		"72773209",
+		"35D748D9"
+            ]
+        },
+        {
+	    "name": "level131",
+            "title": "Soho Rooftops",
+            "sectorCount": 2,
+            "levelHash": "FE1763DC",
+            "sector1Hash": "BD066A07",
+            "sector2Hash": "75A745BF",
+            "sector1Hashes": [
+		"5514768F"
+            ],
+            "sector2Hashes": [
+		"9DB55937",
+		"DA1523E7",
+		"E7750A57",
+		"5555D647"
+            ]
+        },
+        {
+	    "name": "level132",
+            "title": "Tenement Rooftop",
+            "sectorCount": 2,
+            "levelHash": "B9B7190C",
+            "sector1Hash": "5631D104",
+            "sector2Hash": "9E90FEBC",
+            "sector1Hashes": [
+		"BE23CD8C"
+            ],
+            "sector2Hashes": [
+		"7682E234",
+		"312298E4"
+            ]
+        },
+        {
+	    "name": "level133",
+            "title": "Machine Shop",
+            "sectorCount": 2,
+            "levelHash": "84D730BC",
+            "sector1Hash": "B9F3BA3A",
+            "sector2Hash": "71529582",
+            "sector1Hashes": [
+		"51E1A6B2",
+		"1641DC62",
+		"2B21F5D2"
+            ],
+            "sector2Hashes": [
+		"9940890A",
+		"4EB3F020",
+		"73D3D990",
+		"3473A340",
+		"09138AF0",
+		"BB3356E0",
+		"86537F50",
+		"DEE0F3DA",
+		"E380DA6A",
+		"51A0067A",
+		"6CC02FCA",
+		"2B60551A",
+		"16007CAA",
+		"9450EB7B",
+		"A930C2CB"
+            ]
+        },
+        {
+	    "name": "level134",
+            "title": "Tremont",
+            "sectorCount": 2,
+            "levelHash": "36F7ECAC",
+            "sector1Hash": "5B2FA143",
+            "sector2Hash": "938E8EFB",
+            "sector1Hashes": [
+		"B33DBDCB",
+		"F49DC71B",
+		"C9FDEEAB"
+            ],
+            "sector2Hashes": [
+		"7B9C9273",
+		"3C3CE8A3",
+		"015CC113",
+		"B37C1D03",
+		"8E1C34B3",
+		"C9BC4E63"
+            ]
+        },
+        {
+            "name": "level135",
+            "title": "Harlem",
+            "sectorCount": 2,
+            "sector1Hash": "B4EDCA7D",
+            "sector2Hash": "7C4CE5C5",
+            "sector1Hashes": [
+		"5CFFD6F5",
+		"1B5FAC25",
+		"263F8595",
+		"941F5985",
+		"A97F7035"
+            ],
+            "sector2Hashes": [
+		"945EF94D",
+		"D3FE839D",
+		"EE9EAA2D",
+		"5CBE763D",
+		"61DE5F8D",
+		"267E255D",
+		"1B1E0CED"
+            ]
+        },
+        {
+            "name": "level136",
+            "title": "Gunhill Chase",
+            "sectorCount": 2,
+            "levelHash": "4C37BFCC",
+            "sector1Hash": "5FDA717E",
+            "sector2Hash": "977B5EC6",
+            "sector1Hashes": [
+		"B7C86DF6",
+		"F0681726",
+		"CD083E96"
+            ],
+            "sector2Hashes": [
+		"7F69424E",
+		"38C9389E",
+		"05A9112E",
+		"B789CD3E"
+            ]
+        },
+        {
+            "name": "level137",
+            "title": "Furies' Chase",
+            "sectorCount": 2,
+            "levelHash": "7157967C",
+            "sector1Hash": "B0181A40",
+            "sector2Hash": "78B935F8",
+            "sector1Hashes": [
+		"580A06C8",
+		"1FAA7C18"
+            ],
+            "sector2Hashes": [
+		"90AB2970",
+		"D70B53A0",
+		"EA6B7A10"
+         ]
+        },
+        {
+            "name": "level001",
+            "title": "entry 8014",
+            "sectorCount": 2,
+            "levelHash": "7157967C",
+            "sector1Hash": "B0181A40",
+            "sector2Hash": "78B935F8",
+            "sector1Hashes": [
+		"580A06C8",
+		"1FAA7C18"
+            ],
+            "sector2Hashes": [
+		"90AB2970",
+		"D70B53A0",
+		"EA6B7A10"
+          ]
+        },
+        {
+            "name": "level3",
+            "title": "Writer's Block",
+            "sectorCount": 2,
+            "sector1Hash": "57AB127D",
+            "sector2Hash": "9F0A3DC5",
+            "sector1Hashes": [
+		"BFB90EF5",
+		"6397E62A",
+		"5EF7CF9A",
+		"F8197425",
+		"C5795D95",
+		"77598185",
+		"4A39A835",
+		"0D99D2E5",
+		"30F9FB55",
+		"B2A96C84",
+		"8FC94534"
+            ],
+            "sector2Hashes": [
+		"7718214D",
+		"A6E57CBB",
+		"9B85550B",
+		"DC252FDB",
+		"E145066B",
+		"5365DA7B",
+		"6E05F3CB",
+		"29A5891B",
+		"14C5A0AB",
+		"9695377A",
+		"ABF51ECA",
+		"30B85B9D",
+		"20710E15",
+		"1D1127A5",
+		"5AB15D75",
+		"67D174C5",
+		"D5F1A8D5",
+		"E8918165",
+		"AF31FBB5",
+		"9251D205",
+		"100145D4",
+		"2D616C64",
+		"0DD8722D",
+		"EB2DDDB0",
+		"D64DF400",
+		"BFF8AE3D",
+		"8298878D",
+		"C538FD5D",
+		"F858D4ED",
+		"7A08433C",
+		"47686A8C"
+          ]
+        },
+        {
+            "name": "level2",
+            "title": "Real Heavy Rep",
+            "sectorCount": 2,
+            "sector1Hash": "B8697943",
+            "sector2Hash": "70C856FB",
+            "sector1Hashes": [
+		"507B65CB",
+		"A21939EA",
+		"9F79105A",
+		"D8D96A8A",
+		"E5B9433A",
+		"57999F2A",
+		"6AF9B69A",
+		"2D59CC4A",
+		"17DB1F1B",
+		"2ABB36AB",
+		"989BEABB",
+		"A5FBC30B",
+		"E25BB9DB",
+		"DF3B906B",
+		"5D6B07BA",
+		"600B2E0A"
+            ],
+            "sector2Hashes": [
+		"98DA4A73",
+		"676BA37B",
+		"5A0B8ACB",
+		"1DABF01B",
+		"20CBD9AB",
+		"92EB05BB",
+		"AF8B2C0B",
+		"E82B56DB",
+		"D54B7F6B",
+		"571BE8BA",
+		"6A7BC10A",
+		"DF7A30A3",
+		"E1FFD1D5",
+		"DC9FF865",
+		"9B3F82B5",
+		"A65FAB05",
+		"147F7715",
+		"E21A1913",
+		"503AC503",
+		"6D5AECB3",
+		"2AFA9663",
+		"179ABFD3",
+		"95CA2802",
+		"A8AA01B2"
+
+            ]
+        },
+        {  
+	    "name": "level11",
+            "title": "Sharp Dressed Man",
+            "sectorCount": 2,
+            "sector1Hash": "AF496124",
+            "sector2Hash": "67E84E9C",
+            "sector1Hashes": [
+		"475B7DAC",
+		"71D8ED09",
+		"4CB8C4B9",
+		"0B18BE69",
+		"367897D9",
+		"84584BC9",
+		"B9386279",
+		"FE9818A9",
+		"C3F83119",
+		"41A8A6C8",
+		"7CC88F78",
+		"00FB077C",
+		"F74C9FA7",
+		"3D9B2ECC",
+		"8FBBF2DC",
+		"B2DBDB6C",
+		"F57BA1BC",
+		"C81B880C",
+		"4A4B1FDD",
+		"772B366D"
+            ],
+            "sector2Hashes": [
+		"8FFA5214",
+		"B4AA7798",
+		"89CA5E28",
+		"CE6A24F8",
+		"F30A0D48",
+		"412AD158",
+		"7C4AF8E8",
+		"3BEA8238",	
+		"068AAB88",
+		"84DA3C59",
+		"B9BA15E9",
+		"C85A28C4",
+		"323E0536",
+		"0F5E2C86",
+		"48FE5656",
+		"759E7FE6",
+		"C7BEA3F6",
+		"FADE8A46",
+		"BD7EF096",
+		"801ED926",
+		"024E4EF7",
+		"3F2E6747",
+		"F53A0174",
+		"F962D693",
+		"C402FF23",
+		"83A285F3",
+		"BEC2AC43",
+		"0CE27053",
+		"318259E3",
+		"471ADD64",
+		"7A7AF4D4",
+		"3DDA8E04",
+		"00BAA7B4",
+		"82EA3065",
+		"BF8A19D5"
+            ]
+        },
+        {
+      	     "name": "level14",
+            "title": "Set Up",
+            "sectorCount": 2,
+            "levelHash": "502AE228",
+            "sector1Hash": "4960AA60",
+            "sector2Hash": "81C185D8",
+            "sector1Hashes": [
+		"A172B6E8",
+		"008F414B",
+		"E6D2CC38",
+		"DBB2E588",
+		"69923998",
+		"54F21028",
+		"13526AF8",
+		"2E324348",
+		"AC62D499",
+		"9102FD29"
+            ],
+            "sector2Hashes": [
+		"69D39950",
+		"C5FDDBDA",
+		"F89DF26A",
+		"BF3D88BA",
+		"825DA10A",
+		"307D7D1A",
+		"0D1D54AA",
+		"4ABD2E7A",
+		"77DD07CA",
+		"F58D901B",
+		"C8EDB9AB",
+		"2E73E380",
+		"4369A974",
+		"7E0980C4",
+		"39A9FA14",
+		"1313CA30",
+		"A1331620",
+		"9C533F90",
+		"DBF34540",
+		"E6936CF0",
+		"64C3FB21",
+		"59A3D291"
+            ]
+        },
+        {
+	    "name": "level20",
+            "title": "Scout's Honor",
+            "sectorCount": 2,
+            "levelHash": "233E3646",
+            "sector1Hash": "D9696C1B",
+            "sector2Hash": "11C843A3",
+            "sector1Hashes": [
+		"317B7093",
+		"C7C8E039",
+		"FAA8C989",
+		"BD08B359",
+		"80689AE9",
+		"324846F9",
+		"0F286F49",
+		"48881599",
+		"75E83C29",
+		"F7B8ABF8",
+		"76DB0A43",
+		"4BBB23F3",
+		"F99BFFE3",
+		"C4FBD653",
+		"835BAC83",
+		"BE3B8533",
+		"3C6B12E2",
+		"010B3B52"
+            ],
+            "sector2Hashes": [
+		"F9DA5F2B",
+		"02BA7AA8",
+		"3FDA5318",
+		"787A29C8",
+		"451A0078",
+		"F73ADC68",
+		"CA5AF5D8",
+		"8DFA8F08",
+		"B09AA6B8",
+		"32CA3169",
+		"0FAA18D9",
+		"BE7A25FB",
+		"842E0806",
+		"B94E21B6",
+		"FEEE5B66",
+		"C38E72D6",
+		"71AEAEC6",
+		"4CCE8776",
+		"0B6EFDA6",
+		"360ED416",
+		"B45E43C7",
+		"893E6A77",
+		"831A0C4B",
+		"4F72DBA3",
+		"7212F213",
+		"35B288C3",
+		"08D2A173",
+		"BAF27D63",
+		"879254D3",
+		"C0322E03",
+		"FD5207B3",
+		"7F029062",
+		"4262B9D2",
+		"313AD05B",
+		"5277EB1B",
+		"6F17C2AB",
+		"28B7B87B",
+		"15D791CB",
+		"A7F74DDB",
+		"9A97646B",
+		"DD371EBB",
+		"E057370B",
+		"6207A0DA",
+		"5F67896A",
+		"0C5AF9EB",
+		"992B38BE",
+		"A44B110E",
+		"E3EB6BDE",
+		"DE8B426E",
+		"6CAB9E7E",
+		"4BFA833B",
+		"769AAA8B",
+		"F4CA3D5A",
+		"C9AA14EA"
+            ]
+        },
+        {  
+  	    "name": "level31",
+            "title": "Boys In Blue",
+            "sectorCount": 2,
+            "levelHash": "D502CC53",
+            "sector1Hash": "F725D8E5",
+            "sector2Hash": "3F84F75D",
+            "sector1Hashes": [
+		"1F37C46D",
+		"9DE37396",
+		"A0835A26",
+		"E72320F6",
+		"DA430946",
+		"5897BEBD",
+		"65F7970D",
+		"D7D74B1D",
+		"EAB762AD",
+		"AD17187D",
+		"907731CD",
+		"1227A61C",
+		"2F478FAC"	
+            ],
+            "sector2Hashes": [
+		"D796EBD5",
+		"5891E907",
+		"65F1C0B7",
+		"2251BA67",
+		"1F3193D7",
+		"AD114FC7",
+		"90716677",
+		"D7D11CA7",
+		"EAB13517",
+		"68E1A2C6",
+		"55818B76",
+		"90369105",
+		"DE059BA9",
+		"E365B219",
+		"A4C5C8C9",
+		"99A5E179",
+		"2B853D69",
+		"16E514D9",
+		"51456E09",
+		"6C2547B9",
+		"AD56B8B5",
+		"1F7664A5",
+		"22164D15",
+		"65B637C5",
+		"58D61E75",
+		"DA8689A4",
+		"E7E6A014"
+            ]
+        },
+        { 
+            "name": "level34",
+            "title": "Blackout",
+            "sectorCount": 2,
+            "levelHash": "1DE24323",
+            "sector1Hash": "110C13A1",
+            "sector2Hash": "D9AD3C19",
+            "sector1Hashes": [
+		"F91E0F29",
+		"ECB4DFD4",
+		"D1D4F664",
+		"BEBE75F9",
+		"83DE5C49",
+		"31FE8059",
+		"0C9EA9E9",
+		"4B3ED339",
+		"765EFA89",
+		"F40E6D58",
+		"C96E44E8"
+            ],
+            "sector2Hashes": [
+		"31BF2091",
+		"29C64545",
+		"14A66CF5",
+		"53061625",
+		"6E663F95",
+		"DC46E385",
+		"E126CA35",
+		"A686B0E5",
+		"9BE69955",
+		"19B60E84",
+		"24D62734",
+		"761F5A41",
+		"AF5237EB",
+		"92321E5B",
+		"D592648B",
+		"E8F24D3B",
+		"5AD2912B",
+		"4B7F73F1",
+		"F95FAFE1",
+		"C43F8651",
+		"839FFC81",
+		"BEFFD531",
+		"3CAF42E0",
+		"01CF6B50"
+          ]
+        },
+        {
             "name": "level52",
             "title": "No permits, no parley",
             "sectorCount": 2,
@@ -182,24 +1368,6 @@
                 "9DDE5275",
                 "1F8EC5A4",
                 "22EEEC14"
-            ]
-        },
-        {
-            "name": "level107",
-            "title": "Courtyard",
-            "sectorCount": 2,
-            "levelHash": "F7C3E4D2",
-            "sector1Hash": "29FA7C41",
-            "sector2Hash": "E15B53F9",
-            "sector1Hashes": [
-                "C1E860C9"
-            ],
-            "sector2Hashes": [
-                "09494F71",
-                "4EE935A1",
-                "73891C11",
-                "C1A9C001",
-                "FCC9E9B1"
             ]
         }
     ]
